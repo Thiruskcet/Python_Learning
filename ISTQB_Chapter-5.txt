@@ -1,0 +1,37 @@
+ISTQB -5
+Test Plan
+release & Itration plan
+entry(Definition of Ready[DoR]) and exit(definitaion of Done[DoD]) critiria
+Test Estimation tech
+	Matrics based estimation
+		->Estimation based on Ration(take ref of completed project then estimate)
+		-> Exrapolation(estimate based on burdown chart or ongoing sprint estmate estimate next sprint)
+	Expert based estimation 
+		->wide band delphi(sharing with team then estimate)
+			planing pocker is number card and wide band delphi is isolated 
+		->Three point estimation
+				a + (4*m)+b
+			E = -----------
+					6
+					a->most optimistic estimate
+					m->most likely estimate
+					b->most pessimestic Estimate
+test execuition Schedule
+How to do test case prioritation
+	->Rise_based_Priorization(Hight risk excuted 1st but it will not work if High pri has dependnt on low prio then excute low prio 1st)
+	->Coverage_base_Priozation(Most statement coverate execute 1st)
+	->Requirement_based_Priozation(the test test by stakeholder is executed 1st)
+Test Pyramid()
+	-> Agle methologie more test conduct at the bottom of pyramid
+	-> Treditional methode is complementory of age(like inverse pyramid)
+	4 Quardarent(technology facing and bussiness facing)
+		Q1-> techonology facing unit, unit integration test, test case are automated,CI/CD
+		
+		Q2-> bussiness facing support to the team,Functional testing , with acceptance crrteria can manual or automated
+		
+		Q3-> bussiness facing support to the team, User end testing like, Expolarotary testing and usability testing, user acceptance testing
+		
+		Q4-> techonology facing non-functional testing,smoke testing, critique the product
+		
+
+
