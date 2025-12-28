@@ -9,7 +9,7 @@ print(exg.title())
 print(exg.find('gbw'))
 print(len(exg))
 print("Easy to \"Learn\"")
-print(exg[0:2])
+print(exg[0:3])
 #Constant/Enum learning------Starting--------
 from enum import Enum
 class color(Enum):
@@ -133,4 +133,5 @@ print(Jhon_data.print_std_inf())
 #Libs/import libs IN python-----------------Starting------------
 from sub_folder.sub_file import print_data
 test_ = print_data(15, 50)
+
 test_.print_info()
